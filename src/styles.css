@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+.wrapper {
+  min-width: 480px;
+  max-width: 1280px;
+  position: relative;
+  border: 1px solid #999;
+  font-family: "Roboto", sans-serif;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin: -1px -1px 0 -1px;
+}
+
+.tab {
+  flex-grow: 0.333;
+  border: 1px solid #999;
+  text-align: center;
+  height: 50px;
+}
+
+.tab_name {
+  padding: 15px;
+}
+
+.tab_active {
+  border-bottom-color: white;
+}
+
+.container {
+}
+
+.book {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+}
+
+.book_name_action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.book_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action {
+  display: flex;
+  font-weight: bold;
+  padding-right: 10px;
+  flex-direction: row;
+}
+
+.action_name {
+  text-decoration: underline;
+}
+
+.action_symbol {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.description {
+  padding: 10px 0;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tag {
+  background-color: #ddd;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px 5px 5px 0;
+}
+
+.tags_collection {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #999;
+  margin-bottom: -1px;
+}
